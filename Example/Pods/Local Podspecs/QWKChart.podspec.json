@@ -1,9 +1,9 @@
 {
   "name": "QWKChart",
   "version": "0.1.0",
-  "summary": "A short description of QWKChart.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhengchujian/QWKChart",
+  "summary": "轻微课客服系统",
+  "description": "轻微课客服系统iOS端组件库.",
+  "homepage": "https://github.com/klasower/QWKChart",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,28 @@
     "zhengchujian": "cjever@aliyun.com"
   },
   "source": {
-    "git": "https://github.com/zhengchujian/QWKChart.git",
+    "git": "https://github.com/klasower/QWKChart.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "QWKChart/Classes/**/*"
+  "source_files": "QWKChart/Classes/**/*",
+  "dependencies": {
+    "TXIMSDK_iOS": [
+
+    ],
+    "ISVImageScrollView": [
+      "~> 0.1.2"
+    ],
+    "MMLayout": [
+      "~> 0.2.0"
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "Toast": [
+      "~> 4.0.0"
+    ]
+  }
 }

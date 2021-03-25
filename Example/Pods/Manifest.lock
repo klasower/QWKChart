@@ -1,16 +1,53 @@
 PODS:
-  - QWKChart (0.1.0)
+  - ISVImageScrollView (0.1.2)
+  - MMLayout (0.2.0)
+  - QWKChart (0.1.0):
+    - ISVImageScrollView (~> 0.1.2)
+    - MMLayout (~> 0.2.0)
+    - ReactiveObjC
+    - Toast (~> 4.0.0)
+    - TXIMSDK_iOS
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - Toast (4.0.0)
+  - TXIMSDK_iOS (5.1.56)
+  - "UITextView+Placeholder (1.4.0)"
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - QWKChart (from `../`)
+  - SDWebImage (= 5.8.1)
+  - "UITextView+Placeholder (= 1.4.0)"
+  - YYText (= 1.0.7)
+
+SPEC REPOS:
+  trunk:
+    - ISVImageScrollView
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+    - "UITextView+Placeholder"
+    - YYText
 
 EXTERNAL SOURCES:
   QWKChart:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QWKChart: 201b9ebc798c95c9140943d3d0ad17b154744d51
+  ISVImageScrollView: ba511d12a1661b40feb8921309c0854bf93ec749
+  MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
+  QWKChart: f48f92c06bfb89e17dce6b346db738c169e31892
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXIMSDK_iOS: 3704afc203450066095b9eb8321cff3f7e7d530a
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 92ce9a120e87da5c8de2f776895002f6c58a930a
+PODFILE CHECKSUM: 1de855f586b012fc595250271ff19100d66b2f08
 
 COCOAPODS: 1.9.3

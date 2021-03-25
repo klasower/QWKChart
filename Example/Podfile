@@ -4,7 +4,9 @@ platform :ios, '9.0'
 
 target 'QWKChart_Example' do
   pod 'QWKChart', :path => '../'
-
+  pod 'SDWebImage', '5.8.1'
+  pod 'UITextView+Placeholder', '1.4.0'
+  pod 'YYText', '1.0.7'
   target 'QWKChart_Tests' do
     inherit! :search_paths
 

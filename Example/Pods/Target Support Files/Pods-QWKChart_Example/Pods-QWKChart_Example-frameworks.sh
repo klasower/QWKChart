@@ -197,10 +197,26 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ISVImageScrollView/ISVImageScrollView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MMLayout/MMLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QWKChart/QWKChart.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${PODS_ROOT}/TXIMSDK_iOS/ImSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ISVImageScrollView/ISVImageScrollView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MMLayout/MMLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QWKChart/QWKChart.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${PODS_ROOT}/TXIMSDK_iOS/ImSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
