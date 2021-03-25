@@ -1,0 +1,22 @@
+{
+  "name": "QWKChart",
+  "version": "0.1.0",
+  "summary": "A short description of QWKChart.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhengchujian/QWKChart",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengchujian": "cjever@aliyun.com"
+  },
+  "source": {
+    "git": "https://github.com/zhengchujian/QWKChart.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QWKChart/Classes/**/*"
+}
